@@ -1,0 +1,13 @@
+{
+  "uuid": "4fd8dd1f-c9ca-4b50-b99f-447353faadbb",
+  "befores": [
+    {
+      "name": "price",
+      "status": "passed",
+      "start": 1650874271322,
+      "stop": 1650874271322
+    }
+  ],
+  "start": 1650874271322,
+  "stop": 1650874301321
+}

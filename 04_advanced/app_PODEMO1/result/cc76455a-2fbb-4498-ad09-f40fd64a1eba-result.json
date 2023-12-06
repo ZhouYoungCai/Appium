@@ -1,0 +1,57 @@
+{
+  "name": "test_search1",
+  "status": "passed",
+  "description": "\n        打开【雪球】应用首页\n        点击搜索框，进入搜索页面\n        向搜索输入框中输入【alibaba】\n        点击搜索结果中的【阿里巴巴】\n        切换到 tab 的【股票】\n        找到 股票【阿里巴巴】的股票价格 price\n        判断 price 在 110 上下 10%浮动\n        :return:\n        ",
+  "attachments": [
+    {
+      "name": "查找截图",
+      "source": "2a4d8d98-4d77-46c8-9324-1d0777b457a8-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "log",
+      "source": "24146b6a-c0ee-4568-a607-4605bb868fad-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1650873270427,
+  "stop": 1650873309149,
+  "uuid": "218bd6a6-f91d-48ae-bf9c-020c7c647783",
+  "historyId": "a251f0a38822a87a8e1d53ad818707c1",
+  "testCaseId": "eeaa910f5c1bb8130d5a4407a66405cd",
+  "fullName": "case.test_xueqiu.TestXueQiu#test_search1",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "case"
+    },
+    {
+      "name": "suite",
+      "value": "test_xueqiu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestXueQiu"
+    },
+    {
+      "name": "host",
+      "value": "xixi"
+    },
+    {
+      "name": "thread",
+      "value": "55288-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "case.test_xueqiu"
+    }
+  ]
+}

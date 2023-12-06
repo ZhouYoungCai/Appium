@@ -1,0 +1,3 @@
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/post_status
+WARNING  root:black_handle.py:45 未找到元素，处理导演 
+INFO     root:black_handle.py:50 当前保存图片的路径 >>>/Users/juanxu/Documents/霍格沃兹培训/测试demo/PytestLuboProject/app_demo1/app_PODEMO1/base

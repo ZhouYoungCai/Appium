@@ -1,0 +1,29 @@
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/post_status
+WARNING  root:black_handle.py:45 未找到元素，处理导演 
+INFO     root:black_handle.py:50 当前保存图片的路径 >>>/Users/juanxu/Documents/霍格沃兹培训/测试demo/PytestLuboProject/app_demo1/app_PODEMO1/base
+INFO     root:black_handle.py:56 处理黑名单：('id', 'com.xueqiu.android:id/iv_close')
+ERROR    root:black_handle.py:62 遍历黑名单，仍未找到元素，异常信息 ====> Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium 3.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+ERROR    root:black_handle.py:63 traceback.format_exc() ====> Traceback (most recent call last):
+  File "/Users/juanxu/Documents/霍格沃兹培训/测试demo/PytestLuboProject/app_demo1/app_PODEMO1/base/black_handle.py", line 43, in run
+    return fun(*args, **kwargs)
+  File "/Users/juanxu/Documents/霍格沃兹培训/测试demo/PytestLuboProject/app_demo1/app_PODEMO1/base/base_page.py", line 23, in find
+    return self.driver.find_element(by, locator)
+  File "/Users/juanxu/Documents/myenv/allenv/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 414, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Users/juanxu/Documents/myenv/allenv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Users/juanxu/Documents/myenv/allenv/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 30, in check_response
+    raise wde
+  File "/Users/juanxu/Documents/myenv/allenv/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Users/juanxu/Documents/myenv/allenv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium 3.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)

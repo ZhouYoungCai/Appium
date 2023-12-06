@@ -1,0 +1,2 @@
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/post_status
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/tv_search

@@ -1,0 +1,71 @@
+{
+  "name": "test_search1[alibaba-BABA-80]",
+  "status": "passed",
+  "description": "\n        打开【雪球】应用首页\n        点击搜索框，进入搜索页面\n        向搜索输入框中输入【alibaba】\n        点击搜索结果中的【阿里巴巴】\n        切换到 tab 的【股票】\n        找到 股票【阿里巴巴】的股票价格 price\n        判断 price 在 110 上下 10%浮动\n        :return:\n        ",
+  "attachments": [
+    {
+      "name": "查找截图",
+      "source": "93d044a4-7847-4a86-ac01-dac719d80335-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "log",
+      "source": "6b5c28fd-26ec-47fa-bd12-9be70b0d14ed-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "search_key",
+      "value": "'alibaba'"
+    },
+    {
+      "name": "search_result",
+      "value": "'BABA'"
+    },
+    {
+      "name": "price",
+      "value": "80"
+    }
+  ],
+  "start": 1650875003205,
+  "stop": 1650875035625,
+  "uuid": "b768f6fa-ac86-4860-be57-1f913f9c0f31",
+  "historyId": "b1851c6b3d921a7f73aa4d31a6ab90b0",
+  "testCaseId": "eeaa910f5c1bb8130d5a4407a66405cd",
+  "fullName": "case.test_xueqiu.TestXueQiu#test_search1",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "case"
+    },
+    {
+      "name": "suite",
+      "value": "test_xueqiu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestXueQiu"
+    },
+    {
+      "name": "host",
+      "value": "xixi"
+    },
+    {
+      "name": "thread",
+      "value": "5241-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "case.test_xueqiu"
+    }
+  ]
+}

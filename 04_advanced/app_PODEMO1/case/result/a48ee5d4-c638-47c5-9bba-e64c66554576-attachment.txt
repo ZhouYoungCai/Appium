@@ -1,0 +1,10 @@
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/post_status
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/tv_search
+WARNING  root:black_handle.py:45 未找到元素，处理导演 
+INFO     root:black_handle.py:50 当前保存图片的路径 >>>/Users/juanxu/Documents/霍格沃兹培训/测试demo/PytestLuboProject/app_demo1/app_PODEMO1/base
+INFO     root:black_handle.py:56 处理黑名单：('id', 'com.xueqiu.android:id/iv_close')
+INFO     root:black_handle.py:59 点击黑名单弹框
+INFO     root:black_handle.py:42 开始查找元素：com.xueqiu.android:id/search_input_text
+INFO     root:black_handle.py:42 开始查找元素：//*[@text='BABA']
+INFO     root:black_handle.py:42 开始查找元素：//*[@text='股票']
+INFO     root:black_handle.py:42 开始查找元素：//*[@text='BABA']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']

@@ -1,0 +1,13 @@
+{
+  "uuid": "af6977e0-c639-4fda-81ca-705fde3deb19",
+  "befores": [
+    {
+      "name": "price",
+      "status": "passed",
+      "start": 1650874919397,
+      "stop": 1650874919397
+    }
+  ],
+  "start": 1650874919397,
+  "stop": 1650874959666
+}

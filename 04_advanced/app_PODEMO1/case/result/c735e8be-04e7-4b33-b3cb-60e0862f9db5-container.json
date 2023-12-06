@@ -1,0 +1,13 @@
+{
+  "uuid": "e57b80f8-ce61-49fa-84ce-9bdc7e8b9c2f",
+  "befores": [
+    {
+      "name": "search_result",
+      "status": "passed",
+      "start": 1650874118467,
+      "stop": 1650874118468
+    }
+  ],
+  "start": 1650874118467,
+  "stop": 1650874160630
+}
