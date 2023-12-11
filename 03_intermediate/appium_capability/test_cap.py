@@ -28,8 +28,8 @@ class TestSearch:
         self.driver.quit()
 
     def test_search(self):
-        self.driver.find_element_by_id("com.xueqiu.android:id/tv_search").click()
-        self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys("alibab")
-        print(self.driver.find_element_by_xpath('//*[@resource-id="com.xueqiu.android')
+        self.driver.find_element(MobileBy.ID,"com.xueqiu.android:id/tv_search").click()
+        self.driver.find_element(MobileBy.ID,"com.xueqiu.android:id/search_input_text").send_keys("alibab")
+        print(self.driver.find_element(MobileBy.XPATH,'//*[@resource-id="com.xueqiu.android')
               .get_attribute('class'))
         print(self.driver.page_source)
